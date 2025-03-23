@@ -81,6 +81,7 @@ td{
 @media (max-width: 850px){
     #subs{
         width: 95%;
+        padding: 10px 0px;
     }
     table tr td{
         font-size: 14px;
