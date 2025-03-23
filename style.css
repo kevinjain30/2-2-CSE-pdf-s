@@ -4,16 +4,14 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    /* text-align: justify; */
-    /* background-color: #082549 ;
-    color: white; */
+    background-color: rgb(232, 232, 232);
 }
 #head{
     padding: 10px;
     text-align: center;
     font-size: 24px;
     /* text-decoration: underline; */
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(0, 0, 0);
     /* box-shadow: 0px 10px 50px rgba(95, 95, 95, 0.493); */
 }
 #heading{
@@ -23,7 +21,7 @@
     border-bottom-right-radius: 20px;
 }
 #subs{
-    padding: 50px 0px;
+    padding: 20px 0px;
     width: 40%;
     margin: auto;
     display: flex;
