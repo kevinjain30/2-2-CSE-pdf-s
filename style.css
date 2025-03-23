@@ -83,6 +83,9 @@ td{
         width: 95%;
     }
     table tr td{
-        font-size: 16px;
+        font-size: 14px;
+    }
+    details{
+        padding: 10px;
     }
 }
