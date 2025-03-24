@@ -71,10 +71,11 @@ td{
     display: none;
 }
 #toast-text{
+    color: white;
     padding: 5px 10px;
     border-radius: 10px;
-    border: 1px solid white;
-    background-color: rgba(180, 180, 180, 0.349);
+    /* border: 1px solid white; */
+    background-color: rgba(30, 30, 30, 0.793);
 }
 @media (max-width: 850px){
     #subs{
