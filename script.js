@@ -8,11 +8,6 @@ function showToast(message) {
     toast.style.bottom = "20px";
     toast.style.left = "50%";
     toast.style.transform = "translateX(-50%)";
-    // toast.style.background = "lightgrey";
-    // toast.style.color = "white";
-    // toast.style.padding = "10px 20px";
-    // toast.style.borderRadius = "20px";
-    // toast.style.boxShadow = "0px 0px 10px rgba(164, 164, 164, 0.2)";
     
     setTimeout(() => {
         toast.style.display = "none";
@@ -21,14 +16,14 @@ function showToast(message) {
 
 document.querySelectorAll("a[download]").forEach(link => {
     link.addEventListener("click", function (event) {
-        event.preventDefault(); // Prevent immediate download
+        event.preventDefault();
         let url = this.getAttribute("href");
         let fileName = this.getAttribute("download");
         
         showToast("Downloading: " + fileName);
         
         setTimeout(() => {
-            window.location.href = url; // Trigger download after toast
+            window.location.href = url; 
         }, 1000);
     });
 });
