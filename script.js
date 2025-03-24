@@ -27,3 +27,17 @@ document.querySelectorAll("a[download]").forEach(link => {
         }, 1000);
     });
 });
+
+function searchSubjects() {
+    let input = document.getElementById("searchBar").value.toLowerCase();
+    let details = document.querySelectorAll("details");
+
+    details.forEach(detail => {
+        let subject = detail.querySelector("summary").innerText.toLowerCase();
+        if (subject.includes(input)) {
+            detail.style.display = "block"; // Show if matched
+        } else {
+            detail.style.display = "none"; // Hide if not matched
+        }
+    });
+}
