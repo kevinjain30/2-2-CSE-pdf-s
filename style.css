@@ -10,13 +10,10 @@
     padding: 10px;
     text-align: center;
     font-size: 24px;
-    /* text-decoration: underline; */
     border-bottom: 1px solid rgb(0, 0, 0);
-    /* box-shadow: 0px 10px 50px rgba(95, 95, 95, 0.493); */
 }
 #heading{
     padding: 20px;
-    /* box-shadow: 0px 5px 50px rgba(168, 168, 168, 0.61); */
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -32,10 +29,8 @@
 details{
     border-radius: 20px;
     padding: 20px;
-    /* border: 2px solid rgba(133, 133, 133, 0.555); */
     border: 2px solid black;
-    /* box-shadow: 0px 10px 20px rgba(206, 206, 206, 0.644); */
-    /* box-shadow: 0px 0px 50px rgba(245, 176, 129, 0.418); */
+    box-shadow: 0px 10px 30px rgba(135, 135, 135, 0.647);
 }
 summary{
     font-size: 20px;
@@ -62,9 +57,6 @@ td{
     width: 200px;
     margin: auto;
 }
-/* a{
-    color: rgb(112, 112, 252);
-} */
 #toast{
     display: flex;
     justify-content: center;
@@ -74,7 +66,6 @@ td{
     color: white;
     padding: 5px 10px;
     border-radius: 10px;
-    /* border: 1px solid white; */
     background-color: rgba(30, 30, 30, 0.793);
 }
 #searchBar {
